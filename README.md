@@ -1,27 +1,19 @@
 # Spring2018
-# Project 1:
+# Project 1: What did the authors write in their horror stories?
 
 ----
 
-
-### [Project Description](doc/)
+## Project Description
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
 Term: Spring 2018
 
-+ Project title: [a title]
-+ This project is conducted by [your name]
-+ Project summary: [a short summary] 
++ Projec title: The difference and similarity among horror stories of different authors
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
++ This project is conducted by Xiangyu Liu, Columbia UNI: xl2703
 
-```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
-```
++ Project summary: My goal is to identify and illustrate similarities and differences identified by text mining. Since it is the spooky text dataset, I pay more attention on the comparision between fear words and joy words. If you are also curious about it, please wait and see!
 
-Please see each subfolder for a README file.
+## What did the authors write in their horror stories?
+
+![image](Users/xiangyu/Documents/GitHub/spring2018-project1-ellip123/figs/Wordcloud_all.png)
