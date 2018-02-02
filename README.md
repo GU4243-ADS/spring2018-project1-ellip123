@@ -16,4 +16,4 @@ Term: Spring 2018
 
 ## What did the authors write in their horror stories?
 
-![image](Users/xiangyu/Documents/GitHub/spring2018-project1-ellip123/figs/Wordcloud_all.png)
+![image](figs/Wordcloud_all.png)
