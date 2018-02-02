@@ -18,20 +18,24 @@ Term: Spring 2018
 
 First, I want to get the overview of the data visualization. I am curious about the frequent words used by these authors. Are these frequent words are all scary words like 'death', 'fear', 'blood'? Let's go and have a look!
 ![image](figs/Wordcloud_all.png)
+
 Those are the 60 most common words in my entire `spooky` set. The differene colours represent different frequencies. The most frequency words are labelled as black, which are 'eyes', 'day', 'time', 'life' and 'found'. Among them I can find some scary ones which I guessed before, like 'death', 'life', 'dark', 'black' and 'horror'. But to my surprise, I also find some joy words here, such as 'love', 'hope' and 'friend'. 
 
 In order to compare the similarities and differences among three authors, I try to do the same for each author.
 
 First, let's see Mary's wordcloud:
 ![image](figs/Wordcloud_MS.png)
+
 Those are the 30 most common words in the entire Mary's sentences. I notice that the most frequent words of Mary are 'heart', 'time', 'life', 'eys', 'raymond' and 'love'! It seems that Mary use both joy words and scary words frequently.
 
 Let's also take a look at HP's word cloud:
 ![image](figs/Wordcloud_HPL.png)
+
 Those are the 30 most common words in the entire HP's sentences. I notice that the most frequent words of HP are 'night', 'time', 'heard', 'house','house'. Up to now, it's hard for me to draw any conclusion regarding HP's preference in using scary words and joy words. Thus, in the next part, I decide to compare the frequency of some strong scary words and joy words among authors.
 
 Finally, let's see Edgar Allan Poe's wordcloud:
 ![image](figs/Wordcloud_EAP.png)
+
 Those are the 30 most common words in the entire Edgar's sentences. I notice that the most frequent words of Mary are 'length', 'time', 'day', 'found'. It seems that Edgar's wordcloud is most similar with the wordcloud of the entire dataset. Is it because Edgar use more words than others?  Thus, I decide to explore the author count and sentence and word length in the next step.
 
 As I have mentioned before, to get a clearer picture and confirm my guess, I count the words of each author as well as their word leangths and sentence lengths.
