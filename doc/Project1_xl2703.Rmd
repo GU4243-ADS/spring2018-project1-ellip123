@@ -9,9 +9,9 @@ output:
 
 This notebook was written for course STAT 4243 at Columbia University so I did my best to go through intensive detail and include the theory used for data cleaning, text mining and natural language processing such as sentiment analysis, topic modeling, etc.  
 
-My goal is to identify and illustrate similarities and differences identified by my analysis. Since it is the spooky text dataset, I pay more attention on the comparision between fear words and joy words. If you are also curious about it, please wait and see!
+My goal is to identify and illustrate similarities and differences identified by text mining. Since it is the spooky text dataset, I pay more attention on the comparision between fear words and joy words. If you are also curious about it, please wait and see!
 
-# Part0: Setup the libraries and functions
+# Part 0: Setup the libraries and functions
 Let the fun begin!
 ```{r}
 
@@ -110,7 +110,6 @@ spooky_wrd <- spooky %>% unnest_tokens(word, text)
 
 spooky_wrd <- anti_join(spooky_wrd, stop_words, by = "word")
 
-write.csv(spooky_wrd, file='spooky_wrd.csv')
 ```
 
 # Part 2: Overview of data visualization
@@ -207,8 +206,6 @@ To conclude, the overview of data visualization part confirms my many conjecture
 # Part 3: Characteristics of words
 
 Word is the smallest unit of the whole text. So let's first compare the characteristics of words among three authors!
-
-解释 Frequency of words by authors是wordcloud by author的进一步延伸，我们发现 “love” is clearly more used by Shelley than by Lovecraft. The word “half” is only found in Poe and Lovecraft, but not in Shelley’s work at a notable frequency.
 
 ## Relative word frequencies
 In order to explore deeper based on author dependent word clouds, here I want to compare the relative word frequencies between each author. Since we have 3 authors altogether, we have 3 pairs. If the word occurs more than 20 times, then it can be included to the analysis.
@@ -641,8 +638,6 @@ spooky %>%
 
 I can not find too many differences on the use of these different stop words among the authors. Thus, it is reasonable to filter them out at first, as what I did.
 
-
-png("/Users/xiangyu/Documents/GitHub/spring2018-project1-ellip123/figs/stop_words.png")
 
 
 
