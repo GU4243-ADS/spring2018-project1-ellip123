@@ -14,7 +14,7 @@ Term: Spring 2018
 
 + Project summary: My goal is to identify and illustrate similarities and differences identified by text mining. Since it is the spooky text dataset, I pay more attention on the comparision between fear words and joy words. If you are also curious about it, please wait and see!
 
-## Part 1: What is the overview of our text?
+## What is the overview of our text?
 
 First, I want to get the overview of the data visualization. I am curious about the frequent words used by these authors. Are these frequent words are all scary words like 'death', 'fear', 'blood'? Let's go and have a look!
 
