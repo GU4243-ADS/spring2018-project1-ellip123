@@ -96,7 +96,7 @@ Trigrams can regard words three at a time. Each three adjacent words create a tr
 
 I find that Edgar tends to use more reduplicated words, such as 'mile mile mile', 'ugh ugh ugh' and 'ha ha ha'. It is a unique writing style of Edgar. Mary focuses more on the mental activities of the characters because she talks more about the eyes and hearts. Maybe it is because Mary is the only female author here, so her work has more detailed descriptions than others.
 
-## Sentiment analysis
+## Sentiment analysis (Fear words VS Joy words)
 
 What is sentiment analysis? Sentiment Analysis is the process of determining whether a piece of writing is positive, negative or neutral. It’s also known as opinion mining, deriving the opinion or attitude of a speaker. I use sentiment analysis to explorer deeper into the fear words and joy words of each author.
 
